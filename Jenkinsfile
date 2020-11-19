@@ -1,3 +1,4 @@
+  
 pipeline{
         agent any
         stages{
@@ -16,7 +17,6 @@ pipeline{
               steps{
               bat 'mvn deploy'
              }
-			 
             }
         }
 }
